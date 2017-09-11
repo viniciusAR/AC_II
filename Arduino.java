@@ -30,9 +30,7 @@ public class Arduino
 					b = ""+str.charAt(2);
 				}
 			}else{
-				System.out.println(str);
 				condicao = tabela(str);
-				System.out.println("AQ: "+condicao+" "+a+" "+b);
 			}
 		}
 		resp = a + "" + b + "" + condicao;
